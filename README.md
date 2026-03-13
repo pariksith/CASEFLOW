@@ -1,4 +1,4 @@
-﻿# CaseFlow â€” Litigation Workflow for Advocates (MVP v1)
+﻿# CaseFlow Litigation Workflow for Advocates (MVP v1)
 
 > Converts a messy client story into a structured legal notice.
 > Supports: **Cheque Bounce (Section 138, NI Act)**
@@ -42,4 +42,5 @@
 git clone https://github.com/your-repo/caseflow.git
 cd caseflow
 npm install
+
 
