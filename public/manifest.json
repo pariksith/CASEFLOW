@@ -1,0 +1,26 @@
+{
+  "name": "CaseFlow — Litigation Workflow",
+  "short_name": "CaseFlow",
+  "description": "Litigation workflow app for advocates. Cheque Bounce NI Act.",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a47f5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["productivity", "legal"],
+  "lang": "en-IN"
+}
