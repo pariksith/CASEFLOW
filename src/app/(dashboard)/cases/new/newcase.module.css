@@ -1,0 +1,144 @@
+.page {
+  max-width: 1180px;
+  margin: 0 auto;
+  color: #f8f5ef;
+}
+
+.chrome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  color: rgba(248, 245, 239, 0.65);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.hero {
+  border: 1px solid #b4914f;
+  border-radius: 22px;
+  background:
+    radial-gradient(800px 340px at 85% 0%, rgba(176, 138, 60, 0.26), transparent 60%),
+    linear-gradient(130deg, #060606, #151311 65%, #241a10);
+  padding: 18px;
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.42);
+}
+
+.heroHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(40px, 6vw, 82px);
+  line-height: 0.9;
+}
+
+.muted {
+  display: block;
+  color: rgba(248, 245, 239, 0.5);
+}
+
+.sub {
+  margin: 10px 0 0;
+  color: rgba(248, 245, 239, 0.72);
+  max-width: 690px;
+}
+
+.stepPill {
+  border: 1px solid rgba(176, 138, 60, 0.56);
+  border-radius: 12px;
+  background: rgba(248, 245, 239, 0.08);
+  padding: 10px 12px;
+  min-width: 220px;
+}
+
+.stepTitle {
+  margin: 0;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(248, 245, 239, 0.75);
+}
+
+.stepText {
+  margin: 6px 0 0;
+  color: #f3d89f;
+  font-weight: 600;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.stepItem {
+  border: 1px solid rgba(248, 245, 239, 0.24);
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.24);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stepDot {
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px solid rgba(248, 245, 239, 0.35);
+  color: rgba(248, 245, 239, 0.8);
+}
+
+.stepActive .stepDot {
+  border-color: #d4b06b;
+  color: #111;
+  background: #f3d89f;
+}
+
+.stepDone .stepDot {
+  border-color: #d4b06b;
+  color: #111;
+  background: #d4b06b;
+}
+
+.stepLabel {
+  font-size: 14px;
+  color: rgba(248, 245, 239, 0.8);
+}
+
+.panel {
+  margin-top: 12px;
+  border: 1px solid rgba(176, 138, 60, 0.56);
+  border-radius: 20px;
+  background: rgba(248, 245, 239, 0.08);
+  backdrop-filter: blur(8px);
+  padding: 16px;
+}
+
+@media (max-width: 900px) {
+  .heroHead {
+    flex-direction: column;
+  }
+
+  .stepPill {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .steps {
+    grid-template-columns: 1fr;
+  }
+}
