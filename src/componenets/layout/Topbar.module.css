@@ -1,0 +1,73 @@
+.header {
+  height: 64px;
+  border-bottom: 1px solid #3f3219;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  flex-shrink: 0;
+}
+
+.welcome {
+  margin: 0;
+  color: #d7ccb6;
+  font-size: 14px;
+}
+
+.name {
+  color: #f8f5ef;
+  font-weight: 700;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.bellBtn {
+  border: 1px solid #4d3f23;
+  background: transparent;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #4d3f23;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  padding: 6px 10px;
+}
+
+.avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: #b08a3c;
+}
+
+.profileName {
+  margin: 0;
+  color: #f8f5ef;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.profileMeta {
+  margin: 4px 0 0;
+  color: #b8ac95;
+  font-size: 11px;
+  line-height: 1;
+}

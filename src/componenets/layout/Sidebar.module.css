@@ -1,0 +1,105 @@
+.aside {
+  width: 256px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: linear-gradient(180deg, #050505 0%, #111111 55%, #050505 100%);
+  border-right: 1px solid #3e3219;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.42);
+}
+
+.logoWrap {
+  padding: 24px;
+  border-bottom: 1px solid #3e3219;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logoIcon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  background: #b08a3c;
+  box-shadow: 0 8px 16px rgba(176, 138, 60, 0.3);
+}
+
+.title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+}
+
+.subtitle {
+  margin: 4px 0 0;
+  color: #d8c49c;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.nav {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 12px;
+  border-radius: 10px;
+  color: #dfdfdf;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.link:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.active {
+  background: #b08a3c;
+  color: #111;
+  box-shadow: 0 8px 18px rgba(176, 138, 60, 0.28);
+}
+
+.footer {
+  padding: 16px;
+  border-top: 1px solid #3e3219;
+}
+
+.logout {
+  width: 100%;
+  border: 1px solid #68502a;
+  background: transparent;
+  color: #e7d8b6;
+  border-radius: 10px;
+  padding: 11px 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.logout:hover {
+  background: #b08a3c;
+  border-color: #b08a3c;
+  color: #111;
+}
