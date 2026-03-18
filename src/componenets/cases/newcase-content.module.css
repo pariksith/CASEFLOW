@@ -1,0 +1,260 @@
+﻿.block {
+  color: #fdfbf6;
+  background: rgba(0, 0, 0, 0.42);
+  border: 1px solid rgba(176, 138, 60, 0.5);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.header {
+  margin-bottom: 16px;
+}
+
+.title {
+  margin: 0;
+  font-size: 28px;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.subtitle {
+  margin: 8px 0 0;
+  color: rgba(248, 245, 239, 0.86);
+  font-size: 14px;
+}
+
+.selectorList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.typeCard {
+  width: 100%;
+  text-align: left;
+  border-radius: 14px;
+  border: 1px solid rgba(212, 176, 107, 0.72);
+  background: rgba(6, 6, 6, 0.78);
+  color: #fff;
+  padding: 14px;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.typeCard:hover {
+  transform: translateY(-1px);
+  border-color: #e4c07b;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.36);
+}
+
+.typeCardDisabled {
+  opacity: 0.52;
+  cursor: not-allowed;
+}
+
+.typeRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.typeMain {
+  display: flex;
+  gap: 12px;
+  min-width: 0;
+}
+
+.iconWrap {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  background: rgba(212, 176, 107, 0.2);
+  border: 1px solid rgba(212, 176, 107, 0.56);
+}
+
+.typeTitle {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.metaRow {
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.typeSubtitle {
+  margin: 0;
+  color: #f3d89f;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+}
+
+.badge {
+  border-radius: 999px;
+  padding: 3px 8px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.badgeLive {
+  background: rgba(32, 133, 70, 0.26);
+  border: 1px solid rgba(70, 183, 105, 0.56);
+  color: #dcffe9;
+}
+
+.badgeSoon {
+  background: rgba(248, 245, 239, 0.16);
+  border: 1px solid rgba(248, 245, 239, 0.34);
+  color: rgba(248, 245, 239, 0.9);
+}
+
+.desc {
+  margin: 6px 0 0;
+  color: rgba(248, 245, 239, 0.78);
+  font-size: 13px;
+}
+
+.note {
+  margin-top: 14px;
+  border: 1px solid rgba(143, 29, 29, 0.72);
+  background: rgba(143, 29, 29, 0.3);
+  border-radius: 12px;
+  padding: 11px 12px;
+  color: #ffe7e7;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.formTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.formTitle {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1;
+  color: #fff;
+}
+
+.formSub {
+  margin: 8px 0 0;
+  color: rgba(248, 245, 239, 0.72);
+  font-size: 14px;
+}
+
+.textLink {
+  border: none;
+  background: none;
+  color: #f3d89f;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.section {
+  border: 1px solid rgba(176, 138, 60, 0.58);
+  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.sectionHead {
+  margin: 0 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #f3d89f;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12px;
+  color: rgba(248, 245, 239, 0.92);
+}
+
+.input,
+.select,
+.textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(176, 138, 60, 0.66);
+  background: rgba(0, 0, 0, 0.58);
+  color: #ffffff;
+  padding: 10px 11px;
+  outline: none;
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  border-color: #d4b06b;
+  box-shadow: 0 0 0 3px rgba(176, 138, 60, 0.28);
+}
+
+.hint {
+  margin-top: 6px;
+  font-size: 11px;
+  color: rgba(248, 245, 239, 0.66);
+}
+
+.submit {
+  width: 100%;
+  margin-top: 8px;
+  border: 1px solid #dec48c;
+  background: linear-gradient(120deg, #f7ecd6, #d4b06b);
+  color: #111;
+  border-radius: 12px;
+  padding: 12px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.submit:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+@media (max-width: 700px) {
+  .grid2 {
+    grid-template-columns: 1fr;
+  }
+
+  .formTop {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
